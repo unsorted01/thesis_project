@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Weather app</title>
+
+<meta name="viewport" content="width=device-width">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="/css/mystyle.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Serif+Caption" />
+  <!-- JS -->
+  <script src="libs/angular/angular.min.js"></script>
+  <script src="libs/angular-route/angular-route.min.js"></script>
+  <script src="libs/jquery.min.js"></script>
+  <script src="libs/jQueryRotate.js"></script>
+
+
+  <!-- ANGULAR CUSTOM -->
+
+  <script src="js/appRoutes.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- INTERACTIONS TECHNIQUES SCRIPTS -->
+
+  <script src="js/myscript.js"></script>
+
+</head>
+
+<!-- SET THE CONTROLLER -->
+<body>
+
+  <!-- 
+    <div class="result">
+                <div class="search">
+                <input class="city_names" id="city_names" name="city_names" placeholder="Enter city name here"/>
+                <input type = "button" name="submit" value="Search" id="submit" class="submit"/>
+                </div>
+  
+-->
+
+
+
+<!-- search form 6 -->
+<div class="button_box2">
+<form id="poo" class="form-wrapper-2 cf">
+<input class="city_names" id="city_names" name="city_names" type="text" placeholder="Enter city name here" required>
+<button type="submit" name="submit"  id="submit" class="submit">Search</button>
+</form>
+</div>
+
+
+
+
+
+
+
+
+  <div id="container">
+
+    
+   <div class="center-text content-title"><h2><span id="foo2">City:&nbsp&nbsp&nbsp</span><span id="currentLocation2"></span>&nbsp&nbsp&nbsp,&nbsp&nbsp&nbsp<span id="currentLocation3"></span></h2></div>
+<p></p>
+   <div class="center-text content-title"><h2><span id="foo2">Weather:&nbsp&nbsp&nbsp</span><span id="currentTemp"></span> &nbsp&nbsp&nbsp<span id="currentWeather"></span></h2></div>
+<p></p>
+    
+    <div class="center-text content-title"><h2><span id="foo2">Wind speed:&nbsp&nbsp&nbsp</span><span id="windspeed"></span> m/s &nbsp&nbsp&nbsp</h2></div>
+<p></p>
+    <div  class="center-text content-title"><h2><span id="foo2">Wind direction:&nbsp&nbsp&nbsp</span><img src="img/dir.png" alt="Directionn" id="direc"></h2></div>
+
+ <!-- search form 6 
+    <div class="content-body">
+     <h2><p class="center-text" id='currentWeather'></p></h2>
+
+-->
+
+
+    </div>
+
+<p id="credit">Created by Nikiforos Sakkas for ZuluTrade</p>
+
+</body>
+</html>
